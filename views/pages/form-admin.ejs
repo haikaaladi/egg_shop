@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header bg-danger">
+            <h4 class="text-white">Form Tambah Admin</h4>
+        </div>
+        <div class="card-body" style="background-color: #fff8e2">
+            <form action="<%= targetRoute %>" method="post">
+                Nama Admin
+                <input type="text" name="nama_admin" id="nama_admin" class="form-control" value="<%= nama_admin %>" required />
+
+                Username
+                <input type="text" name="username" id="username" class="form-control" value="<%= username %>" required />
+
+                Password
+                <input type="text" name="password" id="password" class="form-control" value="<%= password %>" required />
+
+
+
+                <button type="submit" class="btn btn-danger mt-2">
+                    Simpan
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

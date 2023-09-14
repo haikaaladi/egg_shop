@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dua Telur</title>
+    
+    <!-- set bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+    <div class="container-fluid vh-100" style="background-color: #FAC213;">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="card col-lg-6" style="background-color:#fff3e0 ;">
+                <div class="card-body" style="background-color:#fff3e0 ;">
+                    <h4 class="text-center">
+                        Dua Telur
+                    </h4>
+                    <h6 class="text-danger text-center fst-italic">
+                        Login dulu bro!
+                    </h6>
+                    <form action="/auth" method="post">
+                        Username
+                        <input type="text" name="user_name"
+                        class="form-control mb-2"required>
+                    
+                        Password
+                        <input type="password" name="password"
+                        class="form-control mb-5"required>
+    
+                        <button type="submit" class="btn btn-md w-100 text-white" style="background-color: #000000;" >
+                            LOGIN
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
